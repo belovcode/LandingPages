@@ -1,0 +1,172 @@
+html, body {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.clear {
+	clear: both;
+}
+
+.wrap {
+	width: 880px;
+	border: solid thin silver;
+	border-radius: 5px;
+	margin: 50px auto;
+	padding: 20px 30px 30px 25px;
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EDEDED 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 100%);
+}
+.left-colum {
+	float: left;
+	width: 49%;
+}
+	.left-colum .zagl {
+		font-size: 1.3em;
+		letter-spacing: -0.5px;
+	}
+	.left-colum .content-1,
+	.left-colum .content-2 {
+		width: 93%;
+		font-size: 1em;
+		font-weight: 700;
+		color: #505050;
+		margin: 25px 0px;
+	}
+	.left-colum .content-3 {
+		width: 93%;
+		height: 15px;
+		background-image: url(img/znak.png);
+		background-repeat: no-repeat;
+		padding-left: 24px;
+		color: #787878;
+		font-size: 0.78em;
+		margin-top: 35px;
+	}
+	/*------------------------------*/
+	.left-colum .big-str {
+		float: left;
+		margin-top: 45px;
+		padding: 15px 13px;
+		background-color: #a4a4a4;
+		width: 85%;
+	}
+	.left-colum .ostrie {
+		float: left;
+		margin-top: 45px;
+		width: 30px;
+		height: 62px;
+		background-image: url(img/blockAdresStrelka.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.left-colum .big-str .text-1,
+	.left-colum .big-str .text-2 {
+		font-size: 0.8em;
+		line-height: 15px;
+		color: white;
+	}
+	.left-colum .big-str .text-1 {
+		
+	}
+	.left-colum .big-str b {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.left-colum .big-str .sm {
+		position: relative;
+		padding-left: 10px;
+	}
+	.left-colum .big-str .sm small {
+		position: absolute;
+		display: block;
+		color: white;
+		font-size: 0.8em;
+		top: -3px;
+		left: 1px;
+	}
+	/*-------------------------------------------*/
+
+.right-colum {
+	float: right;
+	width: 48%;
+}
+	.right-colum .tab {
+		border: solid thin silver;
+		border-radius: 5px;
+		padding: 2px;
+	}
+	.right-colum .tab li {
+		background-color: white;
+	}
+	.right-colum .tab li:not(:last-child) {
+		background-image: url(img/dotet.png);
+		background-repeat: repeat-x;
+		background-position: bottom left;
+	}
+	.right-colum .tab .content1 .img-B,
+	.right-colum .tab .content2 .img-B,
+	.right-colum .tab .content3 .img-B {
+		background-repeat: no-repeat;
+		width: 49%;
+		height: 75px;
+		float: left;
+		background-position: center;
+	}
+	.right-colum .tab .content1 .img-B {
+		background-image: url(img/bmibabyCom.png);
+	}
+	.right-colum .tab .content2 .img-B {
+		background-image: url(img/location.png);
+	}
+	.right-colum .tab .content3 .img-B {
+		background-image: url(img/easy.png);
+	}
+	.right-colum .tab .content1 p,
+	.right-colum .tab .content2 p,
+	.right-colum .tab .content3 p {
+		float: right;
+		width: 45%;
+		font-size: 0.9em;
+		font-weight: bolder;
+		margin-top: 30px;
+	}
+	/*-------------------------------------------*/
+	.right-colum .button-right-colum {
+		display: block;
+		margin-top: 26px;
+		width: 99%;
+		text-decoration: none;
+		padding: 2px;
+		border: solid thin silver;
+		border-radius: 5px;
+		position: relative;
+	}
+	.right-colum .button-right-colum p {
+		background-image: -o-linear-gradient(bottom, #5DDB33 0%, #3AAB18 68%);
+		background-image: -moz-linear-gradient(bottom, #5DDB33 0%, #3AAB18 68%);
+		background-image: -webkit-linear-gradient(bottom, #5DDB33 0%, #3AAB18 68%);
+		background-image: -ms-linear-gradient(bottom, #5DDB33 0%, #3AAB18 68%);
+		background-image: linear-gradient(to bottom, #5DDB33 0%, #3AAB18 68%);
+		padding: 20px 45px;
+		color: white;
+		font-size: 1.5em;
+		font-weight: bolder;
+		background-repeat: no-repeat;
+	}
+	.right-colum .button-right-colum p span {
+		padding-left: 55px;
+		text-shadow: #2B7014 0px 0px 1px;
+	}
+	.right-colum .button-right-colum .galka {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		color: red;
+		background-image: url(img/galka2.png);
+		background-repeat: no-repeat;
+		width: 18px;
+		height: 16px;
+	}
+
